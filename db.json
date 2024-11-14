@@ -1,0 +1,67 @@
+
+{
+    "slug": "angelina-mango",
+    "name": "Angelina Mango",
+    "phone_code": "12345",
+    "modules": [
+        {
+            "type": "banner",
+            "attributes": {
+                "link": "https://example.it/angelina-banner"
+            }
+        },
+        {
+            "type": "songLinks",
+            "attributes": {
+                "links": [
+                    {
+                        "platform": "spotify",
+                        "link": "https://example.it/angelina-spotify"
+                    },
+                    {
+                        "platform": "amazon",
+                        "link": "https://example.it/angelina-amazon"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "albumLinks",
+            "attributes": {
+                "links": [
+                    {
+                        "platform": "spotify",
+                        "link": "https://example.it/angelina-album-spotify"
+                    },
+                    {
+                        "platform": "amazon",
+                        "link": "https://example.it/angelina-album-amazon"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "videoLink",
+            "attributes": {
+                "id": "aBc123"
+            }
+        },
+        {
+            "type": "store",
+            "attributes": {
+                "cards": [
+                    {
+                        "title": "T-Shirt Angelina",
+                        "link": "https://example.it/store/tshirt",
+                        "cover": "https://via.placeholder.com/300"
+                    },
+                    {
+                        "title": "Poster Angelina",
+                        "link": "https://example.it/store/poster",
+                        "cover": "https://via.placeholder.com/300"
+                    }
+                ]
+            }
+        }
+    ]
+}
