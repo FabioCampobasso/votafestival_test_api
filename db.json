@@ -1,8 +1,10 @@
 {
  "angelina-mango": {
    "slug": "angelina-mango",
-   "name": "Angelina Mango", 
+   "name": "Angelina Mango",
    "phone_code": "12345",
+   "song": "Finta Song Angelina",
+   "header": "https://fabiocampobasso.github.io/sanremo_test/header-angelina-mango.jpg",
    "modules": [
      {
        "type": "banner",
@@ -19,7 +21,7 @@
              "link": "https://example.it/angelina-spotify"
            },
            {
-             "platform": "amazon", 
+             "platform": "amazon",
              "link": "https://example.it/angelina-amazon"
            }
          ]
@@ -35,7 +37,7 @@
            },
            {
              "platform": "amazon",
-             "link": "https://example.it/angelina-album-amazon" 
+             "link": "https://example.it/angelina-album-amazon"
            }
          ]
        }
@@ -57,7 +59,7 @@
            },
            {
              "title": "Poster Angelina",
-             "link": "https://example.it/store/poster", 
+             "link": "https://example.it/store/poster",
              "cover": "https://via.placeholder.com/300"
            }
          ]
@@ -69,6 +71,8 @@
    "slug": "il-volo",
    "name": "Il Volo",
    "phone_code": "67890",
+   "song": "Finta Song Il Volo",
+   "header": "https://fabiocampobasso.github.io/sanremo_test/header-il-volo.jpg",
    "modules": [
      {
        "type": "albumLinks",
@@ -92,7 +96,7 @@
        }
      },
      {
-       "type": "store", 
+       "type": "store",
        "attributes": {
          "cards": [
            {
@@ -103,7 +107,7 @@
            {
              "title": "Cappello Il Volo",
              "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300" 
+             "cover": "https://via.placeholder.com/300"
            }
          ]
        }
@@ -111,9 +115,11 @@
    ]
  },
  "irama": {
-   "slug": "irama", 
+   "slug": "irama",
    "name": "Irama",
    "phone_code": "67890",
+   "song": "Finta Song Irama",
+   "header": "https://fabiocampobasso.github.io/sanremo_test/header-irama.jpg",
    "modules": [
      {
        "type": "albumLinks",
@@ -124,7 +130,7 @@
              "link": "https://example.it/il-volo-album-spotify"
            },
            {
-             "platform": "YouTube", 
+             "platform": "YouTube",
              "link": "https://example.it/il-volo-album-amazon"
            }
          ]
@@ -151,13 +157,13 @@
              "cover": "https://via.placeholder.com/300"
            },
            {
-             "title": "Bandana Irama", 
+             "title": "Bandana Irama",
              "link": "https://example.it/store/tshirt-volo",
              "cover": "https://via.placeholder.com/300"
            },
            {
              "title": "Anelli Irama",
-             "link": "https://example.it/store/tshirt-volo", 
+             "link": "https://example.it/store/tshirt-volo",
              "cover": "https://via.placeholder.com/300"
            }
          ]
