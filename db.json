@@ -74,6 +74,21 @@
    "song": "Finta Song Il Volo",
    "header": "https://fabiocampobasso.github.io/sanremo_test/header-il-volo.jpg",
    "modules": [
+    {
+       "type": "songLinks",
+       "attributes": {
+         "links": [
+           {
+             "platform": "apple-music",
+             "link": "https://example.it/angelina-spotify"
+           },
+           {
+             "platform": "YouTube",
+             "link": "https://example.it/angelina-amazon"
+           }
+         ]
+       }
+     },
      {
        "type": "albumLinks",
        "attributes": {
