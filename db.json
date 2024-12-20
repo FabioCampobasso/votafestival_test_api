@@ -1,189 +1,72 @@
 {
- "angelina-mango": {
-   "slug": "angelina-mango",
-   "name": "Angelina Mango",
-   "phone_code": "12345",
-   "song": "Finta Song Angelina",
-   "header": "https://fabiocampobasso.github.io/sanremo_test/header-angelina-mango.jpg",
-   "modules": [
-     {
-       "type": "songLinks",
-       "attributes": {
-         "links": [
-           {
-             "platform": "spotify",
-             "link": "https://example.it/angelina-spotify"
-           },
-           {
-             "platform": "amazon",
-             "link": "https://example.it/angelina-amazon"
-           }
-         ]
-       }
-     },
-     {
-       "type": "albumLinks",
-       "attributes": {
-         "links": [
-           {
-             "platform": "spotify",
-             "link": "https://example.it/angelina-album-spotify"
-           },
-           {
-             "platform": "amazon",
-             "link": "https://example.it/angelina-album-amazon"
-           }
-         ]
-       }
-     },
-     {
-       "type": "videoLink",
-       "attributes": {
-         "id": "aBc123"
-       }
-     },
-    {
-       "type": "banner",
-       "attributes": {
-         "link": "https://example.it/angelina-banner"
-       }
-     },
-     {
-       "type": "store",
-       "attributes": {
-         "cards": [
-           {
-             "title": "T-Shirt Angelina",
-             "link": "https://example.it/store/tshirt",
-             "cover": "https://via.placeholder.com/300"
-           },
-           {
-             "title": "Poster Angelina",
-             "link": "https://example.it/store/poster",
-             "cover": "https://via.placeholder.com/300"
-           }
-         ]
-       }
-     }
-   ]
- },
- "il-volo": {
-   "slug": "il-volo",
-   "name": "Il Volo",
-   "phone_code": "67890",
-   "song": "Finta Song Il Volo",
-   "header": "https://fabiocampobasso.github.io/sanremo_test/header-il-volo.jpg",
-   "modules": [
-    {
-       "type": "songLinks",
-       "attributes": {
-         "links": [
-           {
-             "platform": "apple-music",
-             "link": "https://example.it/angelina-spotify"
-           },
-           {
-             "platform": "YouTube",
-             "link": "https://example.it/angelina-amazon"
-           }
-         ]
-       }
-     },
-     {
-       "type": "albumLinks",
-       "attributes": {
-         "links": [
-           {
-             "platform": "spotify",
-             "link": "https://example.it/il-volo-album-spotify"
-           },
-           {
-             "platform": "YouTube",
-             "link": "https://example.it/il-volo-album-amazon"
-           }
-         ]
-       }
-     },
-     {
-       "type": "videoLink",
-       "attributes": {
-         "id": "xYz789"
-       }
-     },
-     {
-       "type": "store",
-       "attributes": {
-         "cards": [
-           {
-             "title": "T-Shirt Il Volo",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           },
-           {
-             "title": "Cappello Il Volo",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           }
-         ]
-       }
-     }
-   ]
- },
- "irama": {
-   "slug": "irama",
-   "name": "Irama",
-   "phone_code": "67890",
-   "song": "Finta Song Irama",
-   "header": "https://fabiocampobasso.github.io/sanremo_test/header-irama.jpg",
-   "modules": [
-     {
-       "type": "albumLinks",
-       "attributes": {
-         "links": [
-           {
-             "platform": "spotify",
-             "link": "https://example.it/il-volo-album-spotify"
-           },
-           {
-             "platform": "YouTube",
-             "link": "https://example.it/il-volo-album-amazon"
-           }
-         ]
-       }
-     },
-     {
-       "type": "videoLink",
-       "attributes": {
-         "id": "xYz789"
-       }
-     },
-     {
-       "type": "store",
-       "attributes": {
-         "cards": [
-           {
-             "title": "T-Shirt Irama",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           },
-           {
-             "title": "Vinile Irama",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           },
-           {
-             "title": "Bandana Irama",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           },
-           {
-             "title": "Anelli Irama",
-             "link": "https://example.it/store/tshirt-volo",
-             "cover": "https://via.placeholder.com/300"
-           }
-         ]
-       }
-     }
-   ]
- }
+    "data": {
+        "slug": "angelina-mango",
+        "cover": {
+            "name": "header-angelina-mango.jpg",
+            "url": "https://fabiocampobasso.github.io/sanremo_test/header-angelina-mango.jpg"
+        },
+        "name": "Angelina Mango",
+        "modules": [
+            {
+                "type": "songLinks",
+                "attributes": [
+                    {
+                        "platform": "Spotify",
+                        "url": "https://example.it/angelina-spotify"
+                    },
+                    {
+                        "platform": "Amazon Music",
+                        "url": "https://example.it/angelina-amazon"
+                    },
+                    {
+                        "platform": "Apple Music",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "type": "albumLinks",
+                "attributes": [
+                    {
+                        "platform": "Spotify",
+                        "url": "https://example.it/angelina-album-spotify"
+                    },
+                    {
+                        "platform": "Amazon Music",
+                        "url": "https://example.it/angelina-album-amazon"
+                    }
+                ]
+            },
+            {
+                "type": "videoLink",
+                "attributes": {
+                    "id": "aBc123"
+                }
+            },
+            {
+                "type": "banner",
+                "attributes": {
+                    "name": "angelina-banner.jpg",
+                    "url": "https://example.it/angelina-banner"
+                }
+            },
+            {
+                "type": "store",
+                "attributes": {
+                    "cards": [
+                        {
+                            "title": "T-Shirt Angelina",
+                            "link": "https://example.it/store/tshirt",
+                            "cover": "https://via.placeholder.com/300"
+                        },
+                        {
+                            "title": "Poster Angelina",
+                            "link": "https://example.it/store/poster",
+                            "cover": "https://via.placeholder.com/300"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
 }
